@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote name="less"
+          fetch="https://github.com/lessaosp"
+          revision="eleven" />
+
+  <remote name="less-devices"
+          fetch="https://github.com/Lessaosp-Devices"
+          revision="eleven" />
+
+  <!-- General repos -->
+  <project path="build/make" name="build" remote="less">
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+  <project path="build/soong" name="build_soong" remote="less" >
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
+  <project path="manifest" name="manifest" remote="less" />  
+  <project path="vendor/aosp" name="vendor_aosp" remote="less" />  
+
+  <!-- Packages repos -->
+  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="pixel" />
+
+</manifest>

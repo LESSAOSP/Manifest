@@ -844,4 +844,7 @@
   <!-- Add all PixelExperience repos -->
   <include name="snippets/pixel.xml" />
 
+  <!-- Add all LESSAOSP repos -->
+  <include name="snippets/lessaosp.xml" />  
+
 </manifest>
