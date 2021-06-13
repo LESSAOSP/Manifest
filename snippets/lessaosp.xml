@@ -33,5 +33,7 @@
 
   <!-- Packages repos -->
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="less" />
+  <project path="packages/apps/Updates" name="packages_apps_Updates" remote="less" />
+
 
 </manifest>
