@@ -26,7 +26,11 @@
   <project path="manifest" name="manifest" remote="less" />  
   <project path="vendor/aosp" name="vendor_aosp" remote="less" />  
 
+  <!-- Frameworks repos -->
+  <project path="frameworks/av" name="frameworks_av" remote="less" />
+  <project path="frameworks/base" name="frameworks_base" remote="less" />
+
   <!-- Packages repos -->
-  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="pixel" />
+  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="less" />
 
 </manifest>
