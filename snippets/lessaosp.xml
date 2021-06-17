@@ -34,7 +34,10 @@
   <!-- Packages repos -->
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="less" />
   <project path="packages/apps/Updates" name="packages_apps_Updates" remote="less" />
-  <project path="packages/apps/Mantle" name="packages_apps_Mantle" remote="less" />  
+  <project path="packages/apps/Mantle" name="packages_apps_Mantle" remote="less" />
+  
+  <!-- System repos -->  
+  <project path="system/netd" name="system_netd" remote="less" />
 
 
 </manifest>
