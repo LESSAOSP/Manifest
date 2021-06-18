@@ -45,6 +45,7 @@
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="less" />
   <project path="packages/apps/Updates" name="packages_apps_Updates" remote="less" />
   <project path="packages/apps/Mantle" name="packages_apps_Mantle" remote="less" />
+  <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="less" />
   <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" remote="less" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="less" />
   <project path="packages/services/Telephony" name="packages_services_Telephony" remote="less" />
