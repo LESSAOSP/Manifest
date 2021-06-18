@@ -24,6 +24,7 @@
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
+  <project path="bootable/recovery" name="bootable_recovery" remote="less" />
   <project path="device/custom/sepolicy" name="device_custom_sepolicy" remote="less" />
   <project path="manifest" name="manifest" remote="less" />  
   <project path="vendor/aosp" name="vendor_aosp" remote="less" />  
