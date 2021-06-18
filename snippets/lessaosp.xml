@@ -49,10 +49,9 @@
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="less" />
   <project path="packages/services/Telephony" name="packages_services_Telephony" remote="less" />
   
-
   <!-- System repos -->  
   <project path="system/bt" name="system_bt" remote="less" />
   <project path="system/netd" name="system_netd" remote="less" />
-
+  <project path="system/update_engine" name="system_update_engine" remote="less" />
 
 </manifest>
