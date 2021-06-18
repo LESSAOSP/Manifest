@@ -41,6 +41,7 @@
   <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" remote="less" />
   
   <!-- System repos -->  
+  <project path="system/bt" name="system_bt" remote="less" />
   <project path="system/netd" name="system_netd" remote="less" />
 
 
