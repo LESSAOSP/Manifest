@@ -34,6 +34,9 @@
   <project path="frameworks/opt/net/ims" name="frameworks_opt_net_ims" remote="less" />
   <project path="frameworks/opt/net/wifi" name="frameworks_opt_net_wifi" remote="less" />
 
+  <!-- Hardware repos -->
+  <project path="hardware/custom/interfaces" name="hardware_custom_interfaces" remote="less" />
+
   <!-- Packages repos -->
   <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="less" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="less" />
