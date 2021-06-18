@@ -39,6 +39,7 @@
   <project path="packages/apps/Updates" name="packages_apps_Updates" remote="less" />
   <project path="packages/apps/Mantle" name="packages_apps_Mantle" remote="less" />
   <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" remote="less" />
+  <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="less" />
   
   <!-- System repos -->  
   <project path="system/bt" name="system_bt" remote="less" />
