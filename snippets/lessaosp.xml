@@ -33,6 +33,7 @@
   <project path="frameworks/opt/net/wifi" name="frameworks_opt_net_wifi" remote="less" />
 
   <!-- Packages repos -->
+  <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="less" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="less" />
   <project path="packages/apps/Updates" name="packages_apps_Updates" remote="less" />
   <project path="packages/apps/Mantle" name="packages_apps_Mantle" remote="less" />
